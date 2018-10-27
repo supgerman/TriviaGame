@@ -1,0 +1,30 @@
+* { 
+    text-align: center;
+}
+.container { 
+    height: 768px; 
+    width: 1366px;
+    background-color: grey;
+    margin: auto;
+    padding: auto;
+} 
+.jumbotron {
+    width: 866px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 120px;
+    background-color: yellow;
+}
+.play {
+    display: none;
+}
+.pick {
+    display: flex;
+    justify-content: center;
+}
+.radio {
+    flex: 1;
+}
+#results {
+    display: none;
+}
